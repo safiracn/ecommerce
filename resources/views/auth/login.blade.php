@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masuk - HomeMart</title>
+    <title>Masuk - LukmanMart</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
             </div>
-            <h2 class="text-2xl font-bold tracking-tight relative z-10">HomeMart</h2>
+            <h2 class="text-2xl font-bold tracking-tight relative z-10">LukmanMart</h2>
             <p class="text-sm text-emerald-300 mt-1 relative z-10">Masuk ke Akun Anda</p>
         </div>
 
