@@ -117,7 +117,7 @@
                                 <div class="flex items-center space-x-3.5">
                                     <div class="w-12 h-12 rounded-xl bg-slate-100 border border-slate-100 overflow-hidden flex-shrink-0 flex items-center justify-center">
                                         @if ($product->image)
-                                            <img src="{{ asset('storage/' . $product->image) }}" class="w-full h-full object-cover">
+                                            <img src="{{ $product->image_url }}" class="w-full h-full object-cover">
                                         @else
                                             <!-- Fallback SVG icon for household equipment -->
                                             <svg class="w-6 h-6 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

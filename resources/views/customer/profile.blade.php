@@ -19,7 +19,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {{-- Navigation / User Card --}}
             <div class="md:col-span-1 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col items-center text-center space-y-4">
-                <img src="{{ $customer->avatar ? asset('storage/' . $customer->avatar) : 'https://ui-avatars.com/api/?name=' . urlencode($customer->name) . '&background=16A34A&color=fff' }}" alt="Avatar" class="w-24 h-24 rounded-full object-cover border-2 border-emerald-500 shadow-sm">
+                <img src="{{ $customer->avatar_url }}" alt="Avatar" class="w-24 h-24 rounded-full object-cover border-2 border-emerald-500 shadow-sm">
                 
                 <div>
                     <h2 class="font-bold text-slate-800 text-lg">{{ $customer->name }}</h2>

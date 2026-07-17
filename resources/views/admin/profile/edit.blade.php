@@ -21,7 +21,7 @@
             {{-- Profile Header --}}
             <div class="flex flex-col sm:flex-row items-center gap-6 border-b border-slate-100 pb-6">
                 <div class="relative">
-                    <img id="avatar-preview" src="{{ $admin->avatar ? asset('storage/' . $admin->avatar) : 'https://ui-avatars.com/api/?name=' . urlencode($admin->name) . '&background=16A34A&color=fff' }}" alt="Avatar" class="w-24 h-24 rounded-full object-cover border-2 border-emerald-500">
+                    <img id="avatar-preview" src="{{ $admin->avatar_url }}" alt="Avatar" class="w-24 h-24 rounded-full object-cover border-2 border-emerald-500">
                     <label class="absolute bottom-0 right-0 p-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full cursor-pointer shadow-md transition">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>

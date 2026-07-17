@@ -153,7 +153,7 @@
                         
                         <!-- Image Preview Element -->
                         <div class="{{ $product->image ? '' : 'hidden' }} absolute inset-0 w-full h-full p-2 bg-white rounded-2xl flex items-center justify-center" id="previewContainer">
-                            <img src="{{ $product->image ? asset('storage/' . $product->image) : '' }}" id="imagePreview" class="max-h-full max-w-full rounded-xl object-contain shadow-sm">
+                            <img src="{{ $product->image_url }}" id="imagePreview" class="max-h-full max-w-full rounded-xl object-contain shadow-sm">
                             <button type="button" id="removeImageBtn" class="absolute top-4 right-4 bg-red-600 hover:bg-red-700 text-white p-2 rounded-xl shadow-lg transition">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />

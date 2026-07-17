@@ -50,7 +50,7 @@
             <div class="md:col-span-1">
                 <div class="aspect-square bg-slate-50 border border-slate-200/80 rounded-2xl overflow-hidden flex items-center justify-center">
                     @if ($product->image)
-                        <img src="{{ asset('storage/' . $product->image) }}" class="w-full h-full object-cover">
+                        <img src="{{ $product->image_url }}" class="w-full h-full object-cover">
                     @else
                         <!-- Big fallback illustration -->
                         <div class="text-center p-6">
